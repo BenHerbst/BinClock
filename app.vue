@@ -41,14 +41,15 @@ onMounted(() => {
   if (canvas) ctx.value = (canvas as HTMLCanvasElement).getContext("2d")
   else throw new Error("No canvas")
 
-  window.setInterval(() => {
-    if (ctx.value) ctx.value.clearRect(0, 0, 1000, 1000)
-    applyTime()
-  }, 1000)
+  window.setInterval(applyTime, 1000)
+
+  applyTime()
 })
 
 function applyTime() {
   const currentDate = new Date()
+
+  if (ctx.value) ctx.value.clearRect(0, 0, 1000, 1000)
 
   const hours = currentDate.getHours();
   const mins = currentDate.getMinutes();
