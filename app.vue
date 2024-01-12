@@ -13,9 +13,9 @@
 </template>
 
 <script lang="ts" setup>
-const ctx: Ref<CanvasRenderingContext2D | null> = ref(null)
+const ctx = ref<CanvasRenderingContext2D | null>(null)
 
-useSeoMeta({
+useServerSeoMeta({
   title: "BinClock - Binary Clock for the 21th century",
   description: 'A simple and easy to use binary clock, with a UI of the 21th century. Never use any other clock again!',
   ogDescription: 'A simple and easy to use binary clock, with a UI of the 21th century. Never use any other clock again!',
