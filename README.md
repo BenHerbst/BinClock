@@ -6,6 +6,11 @@ A binary clock for the 21th century.
 
 ![image](https://clock.benherbst.net/img.png)
 
+## Mobile Version 📱
+
+You can get the mobile version at https://github.com/BenHerbst/BinClockMobile
+Soon releases to Play and App store
+
 ## Stack 🍔
 Using Nuxt and Vue.js
 Hosted on Cloudflare Pages
