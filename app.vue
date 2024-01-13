@@ -5,15 +5,17 @@
       <p class="text-slate-300 pt-5">This is a simple binary clock.</p>
       <canvas id="canvas" height="500" width="700" class="pt-10 w-full" style="max-width: 40rem"></canvas>
       <div class="pt-10 flex flex-col md:flex-row">
-        <a href="https://github.com/BenHerbst/BinClock" type="button" class="text-[#11192e] transition-all active:scale-90 bg-[#57c5ab] font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none">GitHub by Ben Herbst</a>
-        <a href="https://github.com/BenHerbst/BinClockMobile" type="button" class="text-[#11192e] transition-all active:scale-90 bg-[#57c5ab] font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none">Mobile Version</a>
-        <a href="https://github.com/AmirAli-AZ/BinaryClock" type="button" class="text-white bg-gray-800 transition-all active:scale-90 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2">Desktop by Amir Ali</a>
+        <a href="https://github.com/BenHerbst/BinClock" type="button" class="text-[#11192e] flex justify-center transition-all active:scale-90 bg-[#57c5ab] font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none">GitHub</a>
+        <a href="https://github.com/BenHerbst/BinClockMobile" type="button" class="text-[#11192e] flex justify-center transition-all active:scale-90 bg-[#57c5ab] font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none">Mobile</a>
+        <a href="https://github.com/AmirAli-AZ/BinaryClock" type="button" class="text-[#11192e] flex justify-center transition-all active:scale-90 bg-[#57c5ab] font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none">Desktop</a>
       </div>
     </div>
   </div>
 </template>
 
 <script lang="ts" setup>
+// flex justify-center text-white bg-gray-800 transition-all active:scale-90 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2
+  
 const ctx = ref<CanvasRenderingContext2D | null>(null)
 
 useServerSeoMeta({
