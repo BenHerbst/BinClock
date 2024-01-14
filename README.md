@@ -6,6 +6,10 @@ A binary clock for the 21th century.
 
 ![image](https://clock.benherbst.net/img.png)
 
+## Support me ( PayPal )
+|[Donate](https://www.paypal.com/donate/?hosted_button_id=C5X9LBEM7XZ64)|
+|---|
+
 ## Mobile Version 📱
 
 You can get the mobile version at https://github.com/BenHerbst/BinClockMobile
